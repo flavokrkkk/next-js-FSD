@@ -1,3 +1,5 @@
-export default function Home() {
-  return <>Hello Next</>;
-}
+import PostCreate from "@/features/PostCreate/PostCreate";
+
+const Home = () => <PostCreate />;
+
+export default Home;
